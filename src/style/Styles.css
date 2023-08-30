@@ -1,0 +1,131 @@
+.HeaderEmployer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #84b4b2;
+    position: static;
+    top: auto;
+}
+
+/* .HeaderAdmin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #84b4b2;
+    position: static;
+} */
+.HeaderEmployerUl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav {
+    background-color: #84b4b2;
+    position: static;
+}
+
+.HeaderAdminUl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* .HeaderEmployerUl p {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+} */
+
+.liens {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+}
+
+.drop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+/* .drop+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* nav .HeaderEmployerUl {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+.classes {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 15px;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#inventaire {
+    font: none;
+    font-size: 15px;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav .HeaderAdminUl {
+    color: #fff;
+}
+
+Nav .btnAdmin {
+        display: none;
+    }
+
+@media screen and (max-Width: 711px) {
+    Nav .btnAdmin {
+        display: block;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    Nav .HeaderAdminUl {
+        display: none;
+        
+        /* position: absolute;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+        background-color: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(8px); */
+    }
+
+    Nav p .laDivDuBtn {
+        position: absolute;
+        flex-direction: column;
+        width: 150px;
+        height: 250px;
+        background-color: darkgrey;
+        backdrop-filter: blur(8px);
+        padding-left: 5px;
+        margin-left: -80%;
+        
+    }
+
+}

@@ -1,0 +1,126 @@
+.ajouttout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    font: bold;
+    margin: 5px;
+    
+}
+#ajoutx1 {
+    margin: 50px;
+    height: 50px;
+}
+#ajoutx2 {
+    margin: 50px;
+    height: 50px;
+}
+#ajoutx3 {
+    margin: 50px;
+    height: 50px;
+}
+.ajoutparti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px;
+    width: 200px;
+    margin: 5px;
+}
+.lotparti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px;
+    width: 200px;
+    margin: 5px;
+}
+.div-suppressionLot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(139, 168, 230);
+    height: 70vh;
+}
+.div-ajouterLot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(139, 168, 230);
+    height: 70vh;
+}
+
+.div-ajouterUser {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(139, 168, 230);
+    height: 77.1vh;
+}
+.newform {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 2px solid #fff;
+    height: 300px;
+    width: 1000px;
+}
+
+.form-user {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+    margin: 10px;
+}
+.ajoutinput {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top: 2px;
+    border: none;
+    margin: 10px;
+    outline: none;
+    border-radius: 4%;
+}
+.ajoutbtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font: bold;
+    margin: 5px;
+    border-radius: 5%;
+    background-color: rgb(17, 54, 177);
+}
+#texta1 {
+    height: 40px;
+}#texta2 {
+    height: 30px;
+}
+#texta3 {
+    height: 40px;
+}

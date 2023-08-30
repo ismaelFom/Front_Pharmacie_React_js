@@ -1,0 +1,70 @@
+.bg {
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    height: 600px;
+    border-radius: 4px;
+}
+.bg1 {
+    background-color: rgb(224, 135, 72);
+    border-radius: 2px;
+    padding: 10px;
+    height: 600px;
+}
+.bg2 {
+    background-color: rgb(83, 197, 83);
+    border-radius: 2px;
+    padding: 10px;
+    height: 400px;
+}
+.bg3 {
+    background-color: red;
+    height: 500px;
+    width: 500px;
+}
+.add-up-cat {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ligne {
+    margin-top: 100px;
+    height: 2px;
+    width: 100%;
+    background-color:  #3b3a3a;
+}
+.ajouterCat {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: self-start;
+}
+.ajouttout {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ajoutparti {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: self-start;
+}
+.ajoutinput {
+    border-radius: 4px;
+    border: none;
+    background-color: #e6dede;
+}
+.ajoutbtn {
+    margin: 10px;
+    margin-left: 0px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(96, 243, 145);
+    color: black;
+    font: bold;
+    font-size: 18px;
+}

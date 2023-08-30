@@ -1,0 +1,90 @@
+.ajouttout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    font: bold;
+    margin: 5px;
+}
+.ajoutparti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 200px;
+    margin: 5px;
+    font-size: 15px;
+}
+.div-ajouterMedocs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(139, 168, 230);
+    height: 77.1vh;
+}
+.form-ajoutmedoc {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 200px;
+    width: 400px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid #fff;
+}
+.ajoutinput {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-top: 2px;
+    border: none;
+    outline: none;
+    border-radius: 1/2%;
+}
+.ajoutbtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: black;
+    font: bold;
+    margin: 5px;
+    border-radius: 2px;
+    background-color: rgb(17, 54, 177);
+}
+#texta {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+}
+.table-medicaments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 700px;
+}
+.medocupdate {
+    margin: 4px;
+}
+.medocdelete {
+    margin: 4px;
+}
+.label {
+    color: black;
+    font: bold;
+}
+.div-btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}

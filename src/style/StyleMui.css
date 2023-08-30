@@ -1,0 +1,47 @@
+.catMui0 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 900px;
+    height: 400px;
+    /* max-width: 1000px;
+    min-width: 100px; */
+}
+.catMui1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-items: start; */
+    padding: auto;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    flex-direction: column;
+    height: 360px;
+    width: 400px;
+    max-width: 500px;
+    min-width: 50px;
+    background-color: yellowgreen;
+}
+.catMui2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: auto;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    /* align-items: start; */
+    height: 370px;
+    flex-direction: column;
+    width: 400px;
+    max-width: 500px;
+    min-width: 50px;
+    background-color: red;
+}
+
+.btnMui {
+    margin-top: 10px;
+}

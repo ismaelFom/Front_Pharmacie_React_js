@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.globale{
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 1500px; 
+}
+.box{
+    /* margin: 600px; */
+    margin-left: 900px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    background: #252424;
+    color: rgb(121, 187, 245);
+    font-size: 30px;
+}
+.sleder{
+    display: flex;
+    height: 400px;
+    width: 1000px;
+
+}
+
+.caro {
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 30px;
+}
+.car{
+    height: 500px;
+    width: 1000px;
+    float: left;
+}

@@ -1,0 +1,28 @@
+.card {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 500px;
+    height: 300px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+} 
+
+.card-list {
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: lavender; */
+    padding: 30px;
+    padding-right: 30px;
+    border-spacing: 10px;
+}
+
+#img-card {
+    width: 400px;
+    height: 200px;
+}

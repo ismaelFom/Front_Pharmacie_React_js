@@ -1,0 +1,129 @@
+.ajouttout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    font: bold;
+    margin: 5px;
+    
+}
+#ajoutx1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    height: 50px;
+}
+#ajoutx2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    height: 50px;
+}
+#ajoutx3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    height: 50px;
+}
+.ajoutparti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin: 50px;
+    width: 200px;
+    margin: 5px;
+}
+.div-ajouterLot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(139, 168, 230);
+    height: 77.1vh;
+}
+.newplus {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #fff;
+    height: 300px;
+    width: 1000px;
+}
+.newform-categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+    margin: 10px;
+}
+.ajoutinput {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #fff;
+    margin-top: 2px;
+    border: none;
+    margin: 10px;
+    outline: none;
+    border-radius: 4%;
+}
+.ajoutbtn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font: bold;
+    margin: 5px;
+    border-radius: 5%;
+    background-color: rgb(17, 54, 177);
+}
+#texta1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+}#texta2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+}
+#texta3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+}
+.table-Lots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 700px;
+}
+.lotupdate {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4px;
+}
+.lotdelete {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4px;
+}
+.div-btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
